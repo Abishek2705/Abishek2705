@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body bgcolor="#3b82f6">
+
+  <center>
+    <br /><br /><br />
+    <img src="/Screenshot_2026-03-06-22-43-36-35_99c04817c0de5652397fc8b56c3b3817.jpg"  height="200"    alt="" /><br /><br />
+   <img src="/Screenshot_2026-03-06-22-44-42-59_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg"  height="200"    /><br /><br />
+   <img src="/Screenshot_2026-03-06-22-52-12-12_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg"  height="210"   />
+   </center>
+     <script>
+    var indexvalue =0;
+    function slideshow(){
+      setTimeout(slideshow,2500)
+      var x;
+      const img= document.querySelectorAll("img");
+      for( x=0;x<img.length;x++){
+        img[x].style.display="none";
+      }
+      indexvalue++;
+      if( indexvalue >img.length){indexvalue=1}
+              img[indexvalue-1].style.display="block";
+              
+
+    }
+    slideshow();
+  </script>
+</body>
+
+</html>
