@@ -41,12 +41,7 @@ h2{
   padding-top: 30px;
 }
 fieldset{
-    background: lightskyblue;
-    border-radius: 300px;
-    border-color: black;
-  }
-fieldset{
-    background: lightskyblue;
+    background: #3b82f6;
     border-radius: 300px;
     border-color: black;
   }
