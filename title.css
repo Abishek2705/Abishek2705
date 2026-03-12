@@ -1,0 +1,47 @@
+body {
+    font-size: 15pt;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+  text-decoration: none;
+}
+div{
+   background:#CCFF00 ;
+   word-spacing: 60px;
+ justify-content: Center;
+   font:Verdana;
+   border-color: black ;
+  
+}
+a{
+  color: Black ;
+  
+  
+}
+a.hover{
+  color: red;
+}
+
+.ax{
+  color: orangered;
+  background: black;
+}
+.gy{
+  background: #000435;
+  justify-content: center;
+  text-align: center;
+}
+h1{
+align-content: center;
+text-shadow: 100px;
+color: #3b82f6;
+}
+h2{
+  color: #EFBF04 ;
+  padding-top: 30px;
+}
+fieldset{
+    background: lightskyblue;
+    border-radius: 300px;
+    border-color: black;
+  }
